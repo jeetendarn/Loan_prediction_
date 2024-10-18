@@ -65,14 +65,8 @@ df1.dataframeName = 'test_Y3wMUE5_7gLdaTN.csv'
 nRow, nCol = df1.shape
 print(f'There are {nRow} rows and {nCol} columns')
 
-#There are 367 rows and 12 columns
 df1.head(5)
-#Loan_ID	Gender	Married	Dependents	Education	Self_Employed	ApplicantIncome	CoapplicantIncome	LoanAmount	Loan_Amount_Term	Credit_History	Property_Area
-#0	LP001015	Male	Yes	0	Graduate	No	5720	0	110.0	360.0	1.0	Urban
-#1	LP001022	Male	Yes	1	Graduate	No	3076	1500	126.0	360.0	1.0	Urban
-#2	LP001031	Male	Yes	2	Graduate	No	5000	1800	208.0	360.0	1.0	Urban
-#3	LP001035	Male	Yes	2	Graduate	No	2340	2546	100.0	360.0	NaN	Urban
-#4	LP001051	Male	No	0	Not Graduate	No	3276	0	78.0	360.0	1.0	Urban
+
 df1['Gender'].hist(bins=10)
 #<Axes: >
 
